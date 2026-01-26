@@ -157,3 +157,29 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// Theme Toggle Variables
+const themeBtn = document.querySelector("[data-theme-btn]");
+const HTML = document.documentElement;
+let isDark = localStorage.getItem("theme") === "light" ? false : true;
+
+if (localStorage.getItem("theme") === "light") {
+  HTML.dataset.theme = "light";
+} else {
+  HTML.dataset.theme = "dark";
+}
+
+const toggleTheme = function () {
+  isDark = !isDark;
+
+  if (isDark) {
+    HTML.dataset.theme = "dark";
+    localStorage.setItem("theme", "dark");
+  } else {
+    HTML.dataset.theme = "light";
+    localStorage.setItem("theme", "light");
+  }
+}
+
+themeBtn.addEventListener("click", toggleTheme);
