@@ -1448,6 +1448,73 @@ main {
 
 
 /*-----------------------------------*\
+  #RESUME FALLBACK
+\*-----------------------------------*/
+
+.resume-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.resume-wrapper.desktop-only {
+  display: none;
+}
+
+.resume-fallback.mobile-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 300px;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.resume-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 100%;
+}
+
+.resume-card p {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  margin-bottom: 5px;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--text-gradient-yellow);
+  color: var(--smoky-black);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: var(--fw-600);
+  font-size: var(--fs-6);
+  transition: var(--transition-1);
+}
+
+.btn-download:hover {
+  opacity: 0.8;
+}
+
+.btn-download ion-icon {
+  font-size: 18px;
+}
+
+.file-info {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  margin-top: 5px;
+}
+
+
+/*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
 
@@ -1945,6 +2012,18 @@ main {
   .form-btn {
     width: max-content;
     margin-left: auto;
+  }
+
+  /**
+   * RESUME
+   */
+
+  .resume-wrapper.desktop-only {
+    display: block;
+  }
+
+  .resume-fallback.mobile-only {
+    display: none;
   }
 
 }

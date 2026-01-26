@@ -1,101 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subbu's Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subbu's Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="assets\images\logo-main-preview.png"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="assets\images\logo-main-preview.png" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="assets\images\bg-preview-3.png"
-              alt="Subramanayam"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets\images\bg-preview-3.png" alt="Subramanayam" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Subramanyam S</h1>
-            <p class="title">.NET Full Stack Developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Subramanyam S</h1>
+          <p class="title">.NET Full Stack Developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="sirisalasubramanyam@gmail.com" class="contact-link"
-                  >sirisalasubramanyam@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="sirisalasubramanyam@gmail.com" class="contact-link">sirisalasubramanyam@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+12133522795" class="contact-link"
-                  >+91 63011 14160</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <!-- <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 63011 14160</a>
+            </div>
+          </li>
+
+          <!-- <li class="contact-item">
 
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
@@ -109,7 +95,7 @@
 
           </li> -->
 
-            <!-- <li class="contact-item">
+          <!-- <li class="contact-item">
 
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
@@ -122,277 +108,251 @@
             </div>
 
           </li> -->
-          </ul>
+        </ul>
 
-          <div class="separator"></div>
+        <div class="separator"></div>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/subramanyam-dotnet/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/subramanyam-dotnet/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="https://github.com/Subramanyam111" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="https://github.com/Subramanyam111" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a
-                href="https://www.instagram.com/itz_me_s_u_b_b_u_/"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li class="social-item">
+            <a href="https://www.instagram.com/itz_me_s_u_b_b_u_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
 
-      <!--
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>Profile</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Profile</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Background</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Background</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Projects</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-            <li class="navbar-item">
-              <button class="navbar-link theme-btn" data-theme-btn>
-                <span class="icon-moon"><ion-icon name="moon-outline"></ion-icon></span>
-                <span class="icon-sun"><ion-icon name="sunny-outline"></ion-icon></span>
-              </button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link theme-btn" data-theme-btn>
+              <span class="icon-moon"><ion-icon name="moon-outline"></ion-icon></span>
+              <span class="icon-sun"><ion-icon name="sunny-outline"></ion-icon></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #profile
       -->
 
-        <article class="about active" data-page="profile">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="profile">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I’m a .NET Full Stack Developer with strong expertise in building
-              secure, scalable, and well-structured web applications. I
-              specialize in C#, ASP.NET Core, MVC, and RESTful APIs, with a
-              solid backend foundation and a practical approach to
-              problem-solving.
-            </p>
+        <section class="about-text">
+          <p>
+            I’m a .NET Full Stack Developer with strong expertise in building
+            secure, scalable, and well-structured web applications. I
+            specialize in C#, ASP.NET Core, MVC, and RESTful APIs, with a
+            solid backend foundation and a practical approach to
+            problem-solving.
+          </p>
 
-            <p>
-              I have hands-on experience working with SQL Server and Entity
-              Framework to design efficient data models and implement reliable
-              data access layers. On the frontend, I build responsive and
-              user-friendly interfaces using HTML5, CSS3, and JavaScript.
-            </p>
-            <p>
-              I follow clean architecture principles, write maintainable code,
-              and ensure APIs are properly validated, tested, and documented
-              using Swagger and Postman. I focus on delivering solutions that
-              are production-ready, easy to scale, and aligned with real
-              business requirements.
-            </p>
-          </section>
+          <p>
+            I have hands-on experience working with SQL Server and Entity
+            Framework to design efficient data models and implement reliable
+            data access layers. On the frontend, I build responsive and
+            user-friendly interfaces using HTML5, CSS3, and JavaScript.
+          </p>
+          <p>
+            I follow clean architecture principles, write maintainable code,
+            and ensure APIs are properly validated, tested, and documented
+            using Swagger and Postman. I focus on delivering solutions that
+            are production-ready, easy to scale, and aligned with real
+            business requirements.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src=".\assets\images\api-svgrepo-com.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src=".\assets\images\api-svgrepo-com.svg
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">API Development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Development</h4>
 
-                  <p class="service-item-text">
-                    Designing and building secure, scalable RESTful APIs using
-                    ASP.NET Core with clean endpoint structure and proper HTTP
-                    standards.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Designing and building secure, scalable RESTful APIs using
+                  ASP.NET Core with clean endpoint structure and proper HTTP
+                  standards.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Backend Development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
 
-                  <p class="service-item-text">
-                    Implementing business logic with C# and ASP.NET Core MVC,
-                    focusing on maintainable code, validations, and structured
-                    architecture.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Implementing business logic with C# and ASP.NET Core MVC,
+                  focusing on maintainable code, validations, and structured
+                  architecture.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="\assets\images\database-svgrepo-com (1).svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="\assets\images\database-svgrepo-com (1).svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Database Management</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
 
-                  <p class="service-item-text">
-                    Designing and managing data access using SQL Server and
-                    Entity Framework with efficient queries and reliable data
-                    handling.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Designing and managing data access using SQL Server and
+                  Entity Framework with efficient queries and reliable data
+                  handling.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/web-page-svgrepo-com.svg"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/web-page-svgrepo-com.svg" alt="camera icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Frontend Development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
 
-                  <p class="service-item-text">
-                    Building responsive and user-friendly interfaces using
-                    HTML5, CSS3, JavaScript, and Bootstrap.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/developer-centerpublic-api-svgrepo-com.svg"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
+                <p class="service-item-text">
+                  Building responsive and user-friendly interfaces using
+                  HTML5, CSS3, JavaScript, and Bootstrap.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/developer-centerpublic-api-svgrepo-com.svg" alt="camera icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">API Testing</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Testing</h4>
 
-                  <p class="service-item-text">
-                    Validating and documenting APIs using Swagger and Postman to
-                    ensure accuracy, reliability, and production readiness.
-                  </p>
-                </div>
-              </li>
-            </ul>
+                <p class="service-item-text">
+                  Validating and documenting APIs using Swagger and Postman to
+                  ensure accuracy, reliability, and production readiness.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
           </section>
+        </div>
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-            </section>
-          </div>
-
-          <!--
+        <!--
           - clients
         -->
 
-          <section class="clients"></section>
-        </article>
+        <section class="clients"></section>
+      </article>
 
-        <!--
+      <!--
         - #background
       -->
 
-        <article class="background" data-page="background">
-          <header>
-            <h2 class="h2 article-title">background</h2>
-          </header>
+      <article class="background" data-page="background">
+        <header>
+          <h2 class="h2 article-title">background</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Annamacharya Institute of Technology & Sciences, Kadapa,
-                  Andhra Pradesh
-                </h4>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <span>2022 — 2025</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Annamacharya Institute of Technology & Sciences, Kadapa,
+                Andhra Pradesh
+              </h4>
 
-                <p class="timeline-text">
-                  Bachelor of Technology (B.Tech) in Computer Science and
-                  Engineering
-                </p>
-              </li>
+              <span>2022 — 2025</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Sri Krishnadevaraya Engineering College, Gooty, Andhra pradesh
-                </h4>
+              <p class="timeline-text">
+                Bachelor of Technology (B.Tech) in Computer Science and
+                Engineering
+              </p>
+            </li>
 
-                <span>2019 — 2022</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Sri Krishnadevaraya Engineering College, Gooty, Andhra pradesh
+              </h4>
 
-                <p class="timeline-text">Diploma in Mechanical Engineering</p>
-              </li>
-            </ol>
-          </section>
+              <span>2019 — 2022</span>
 
-          <!-- <section class="timeline">
+              <p class="timeline-text">Diploma in Mechanical Engineering</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
@@ -440,390 +400,303 @@
             </ol>
           </section> -->
 
-          <section class="skills">
-            <h3 class="h3 skills-title" style="margin-bottom: 15px">
-              My Skills
-            </h3>
+        <section class="skills">
+          <h3 class="h3 skills-title" style="margin-bottom: 15px">
+            My Skills
+          </h3>
 
-            <ul class="skills-list">
-              <!-- Skill Category -->
-              <li class="skills-item">
-                <div class="skills-content-box">
-                  <h4 class="h4 skills-item-title">Backend</h4>
+          <ul class="skills-list">
+            <!-- Skill Category -->
+            <li class="skills-item">
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Backend</h4>
 
-                  <div class="skills-tags">
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\File-C-Sharp-Thin--Streamline-Phosphor-Thin.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>C#</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\aspnet-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>ASP.NET Core</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\vuejs-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>MVC</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\api-page-svgrepo-com (1).svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>RESTful API</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\entity-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Entity Framework</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\code-block-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>ADO.NET</p>
-                    </span>
-                  </div>
+                <div class="skills-tags">
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\File-C-Sharp-Thin--Streamline-Phosphor-Thin.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>C#</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\aspnet-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>ASP.NET Core</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\vuejs-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>MVC</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\api-page-svgrepo-com (1).svg" alt="Tools" width="30" />
+                    </div>
+                    <p>RESTful API</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\entity-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>Entity Framework</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\code-block-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>ADO.NET</p>
+                  </span>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="skills-content-box">
-                  <h4 class="h4 skills-item-title">Frontend</h4>
+            <li class="skills-item">
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Frontend</h4>
 
-                  <div class="skills-tags">
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\html5-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>HTML5</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\css3-02-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>CSS3</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\javascript-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>JavaScript</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\bootstrap-fill-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Bootstrap</p>
-                    </span>
-                  </div>
+                <div class="skills-tags">
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\html5-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>HTML5</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\css3-02-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>CSS3</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\javascript-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>JavaScript</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\bootstrap-fill-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>Bootstrap</p>
+                  </span>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="skills-content-box">
-                  <h4 class="h4 skills-item-title">Database</h4>
+            <li class="skills-item">
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Database</h4>
 
-                  <div class="skills-tags">
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\sql-file-format-symbol-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Sql Server</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\signal-svgrepo-com (1).svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>LINQ</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\server-database-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>CRUD</p>
-                    </span>
-                  </div>
+                <div class="skills-tags">
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\sql-file-format-symbol-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>Sql Server</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\signal-svgrepo-com (1).svg" alt="Tools" width="30" />
+                    </div>
+                    <p>LINQ</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\server-database-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>CRUD</p>
+                  </span>
                 </div>
-              </li>
-              <li class="skills-item">
-                <div class="skills-content-box">
-                  <h4 class="h4 skills-item-title">Tools</h4>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Tools</h4>
 
-                  <div class="skills-tags">
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\github-fill-svgrepo-com.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Git & GitHub</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\Swagger--Streamline-Simple-Icons.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Swagger</p>
-                    </span>
-                    <span>
-                      <div class="skills-icon-box">
-                        <img
-                          src="assets\images\Letter-Circle-P-Thin--Streamline-Phosphor-Thin.svg"
-                          alt="Tools"
-                          width="30"
-                        />
-                      </div>
-                      <p>Postman</p>
-                    </span>
-                  </div>
+                <div class="skills-tags">
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\github-fill-svgrepo-com.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>Git & GitHub</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\Swagger--Streamline-Simple-Icons.svg" alt="Tools" width="30" />
+                    </div>
+                    <p>Swagger</p>
+                  </span>
+                  <span>
+                    <div class="skills-icon-box">
+                      <img src="assets\images\Letter-Circle-P-Thin--Streamline-Phosphor-Thin.svg" alt="Tools"
+                        width="30" />
+                    </div>
+                    <p>Postman</p>
+                  </span>
                 </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #projects
       -->
 
-        <article class="projects" data-page="projects">
-          <header>
-            <h2 class="h2 article-title">projects</h2>
-          </header>
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">projects</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Api Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Full Stack</button>
+              <li class="select-item">
+                <button data-select-item>full stack</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Api Design</button>
+              <li class="select-item">
+                <button data-select-item>api design</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>full stack</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>api design</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="https://github.com/Subramanyam111/Student-Management-System-using-ASP.NET-MVC.git"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="assets\images\variety-people-multitasking-3d-cartoon-scene.jpg"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Studet Management System</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="api design"
-              >
-                <a
-                  href="https://github.com/Subramanyam111/Leave-Management-System-Api-Project.git"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="assets\images\4912351.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Leave Management System Api</h3>
-
-                  <p class="project-category">Api Design</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
             </ul>
-          </section>
-        </article>
+          </div>
 
-        <!--
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://github.com/Subramanyam111/Student-Management-System-using-ASP.NET-MVC.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\variety-people-multitasking-3d-cartoon-scene.jpg" alt="metaspark"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Studet Management System</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="api design">
+              <a href="https://github.com/Subramanyam111/Leave-Management-System-Api-Project.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\4912351.jpg" alt="task manager" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Leave Management System Api</h3>
+
+                <p class="project-category">Api Design</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #Resume
       -->
 
-        <article class="contact" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">resume</h2>
-          </header>
+      <article class="contact" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">resume</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <object
-              data="Subramanyam_.NetDeveloper-Resume.pdf"
-              type="application/pdf"
-              width="100%"
-              height="100%"
-            >
+        <section class="mapbox" data-mapbox>
+          <div class="resume-wrapper desktop-only">
+            <object data="Subramanyam_.NetDeveloper-Resume.pdf" type="application/pdf" width="100%" height="100%">
               <p>
                 PDF preview not supported.
                 <a href="Subramanyam_.NetDeveloper-Resume.pdf">Download</a>
               </p>
             </object>
-          </section>
-        </article>
-      </div>
-    </main>
+          </div>
 
-    <!--
+          <div class="resume-fallback mobile-only">
+            <div class="resume-card">
+              <p>For the best experience, view the resume in full screen.</p>
+              <a href="Subramanyam_.NetDeveloper-Resume.pdf" target="_blank" class="btn-download">
+                <ion-icon name="document-text-outline"></ion-icon>
+                <span>View Resume (PDF)</span>
+              </a>
+              <span class="file-info">PDF File</span>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
